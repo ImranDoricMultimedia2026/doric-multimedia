@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+# Preserve existing public site while adding clean blog URLs.
+RewriteRule ^blog/?$ blog.php [L,QSA]
+RewriteRule ^blog/([^/]+)/?$ blog.php?slug=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
