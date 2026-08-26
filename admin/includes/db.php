@@ -1,14 +1,17 @@
 <?php
 
+// Ensure PHP uses India Standard Time across the app so displayed times
+// (relative and formatted) are consistent with IST / Asia-Kolkata.
+// Force application timezone to IST (Asia/Kolkata) so all date/time
+// formatting and relative calculations are consistent.
 date_default_timezone_set('Asia/Kolkata');
 
 function getDbConnection(): PDO
 {
-    $host = getenv('DB_HOST') ?: 'localhost';
-    $dbname = getenv('DB_NAME') ?: 'u754812051_doric_admin';
-    $user = getenv('DB_USER') ?: 'u754812051_doricadmin';
-    $pass = getenv('DB_PASS') ?: 'YOUR_DATABASE_PASSWORD';
-
+    $host = getenv('DB_HOST') ?: '127.0.0.1';
+    $dbname = getenv('DB_NAME') ?: 'doric_admin';
+    $user = getenv('DB_USER') ?: 'root';
+    $pass = getenv('DB_PASS') ?: '';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host={$host};dbname={$dbname};charset={$charset}";
@@ -22,10 +25,6 @@ function getDbConnection(): PDO
     try {
         return new PDO($dsn, $user, $pass, $options);
     } catch (PDOException $e) {
-        throw new PDOException(
-            'Database connection failed. Please verify the database credentials.',
-            0,
-            $e
-        );
+        throw new PDOException('Database connection failed. Please verify the local XAMPP MySQL settings.', 0, $e);
     }
 }

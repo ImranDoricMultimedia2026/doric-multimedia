@@ -161,7 +161,7 @@
                     <div class="counter-number">5.0</div>
                     <div class="stars-row">★★★★★</div>
                     <p class="sub-review-text">Industry Leaders Trust Our Tally Expertise</p>
-                    <a href="#contact" class="consult-btn">Get Professional Support</a>
+                    <a href="contact.php" class="consult-btn">Get Professional Support</a>
                 </div>
             </div>
         </div>

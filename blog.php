@@ -693,6 +693,7 @@ $isSingle = ($slug !== '' && !empty($blog));
 </head>
 <body>
 <?php include __DIR__ . '/navbar.php'; ?>
+<?php include __DIR__ . '/modal.php'; ?>
 
 <?php if ($slug !== ''): ?>
     <?php if (!empty($blog)): ?>

@@ -4,7 +4,7 @@
       <div class="row align-items-center justify-content-center text-center footer-top-row">
     <div class="col-lg-12 mb-4 mb-lg-0">
         <div class="footer-brand mx-auto d-flex justify-content-center align-items-center">
-            <img src="images/dmpl_logo.png" class="img-fluid footer_logo" alt="DMPL Logo">
+            <!-- <img src="images/dmpl_logo.png" class="img-fluid footer_logo" alt="DMPL Logo"> -->
         </div>
     </div>
 </div>
@@ -16,10 +16,22 @@
             <div class="col-xl-3 col-lg-12 mb-4 mb-xl-0">
                 <h4 class="footer-link-heading">Stay Tuned</h4>
                 <div class="footer-social-icons">
+
+<a href="https://www.facebook.com/doricmultimedialdh/" target="_blank" class="social-icon-btn">
+    <i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://www.instagram.com/doricmultimedia/?hl=en" target="_blank" class="social-icon-btn">
+    <i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://in.linkedin.com/company/doric-multimedia-priv-limited" target="_blank" class="social-icon-btn">
+    <i class="fa-brands fa-linkedin"></i>
+</a>
+
+
+
                    
-                    <a href="https://www.instagram.com/doricmultimedia/?hl=en"  target="_blank" class="social-icon-btn"><i class="fab fa-instagram"></i></a>
-                    <a href="https://in.linkedin.com/company/doric-multimedia-priv-limited"  target="_blank" class="social-icon-btn"><i class="fa-brands fa-linkedin"></i>  </a>
-                </div>
+                     </div>
             </div>
 
             <div class="col-xl-3 col-md-4 col-sm-6 mb-4 mb-md-0">
@@ -55,7 +67,7 @@
                     </li>
                     <li class="mt-2">
                         <i class="fas fa-envelope me-2"></i> 
-                        <a href="mailto:Inquiry@doricmultimedia.com">Inquiry@doricmultimedia.com</a>
+                        <a href="mailto:Inquiry@doricmultimedia.com">mail@doricmultimedia.com</a>
                     </li>
                 </ul>
             </div>
@@ -68,20 +80,21 @@
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 <p class="copyright-text">© 2026 DMPL. All Rights Reserved</p>
             </div>
-            <div class="col-md-6 text-center text-md-end">
-               <div class="footer-bottom-links">
-    <p>Deisgn By &nbsp; 
-        <a style="color: #9d3626;font-size:16px; font-weight:bold" 
-           href="https://doricmultimedia.com/">
-            Doric Multimedia
-        </a>
-    </p>
-</div>
+  
             </div>
         </div>
 
     </div>
 </footer>
+
+<div class="site-floating-actions" aria-label="Quick actions">
+    <a class="site-floating-action site-whatsapp-action" href="https://wa.me/919888696300" target="_blank" rel="noopener noreferrer" aria-label="Chat with Doric Multimedia on WhatsApp" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+    <button class="site-floating-action site-back-to-top" type="button" aria-label="Back to top" title="Back to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+</div>
 
 
 <style>
@@ -91,13 +104,86 @@
     /* Ye raha naya blackish-bluish background */
     background: linear-gradient(180deg, #000000 0%, #030921 100%);
     
-    padding: 90px 0 30px 0;
+    padding: 0 30px 0;
     color: #ffffff;
     position: relative;
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.site-floating-actions {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 950;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.site-floating-action {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+}
+
+.site-floating-action:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.24);
+}
+
+.site-whatsapp-action {
+    background: #25d366;
+}
+
+.site-back-to-top {
+    background: #9d3626;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+}
+
+.site-back-to-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+.site-back-to-top:hover {
+    background: #7d281c;
+}
+
+@media (max-width: 575px) {
+    .site-floating-actions {
+        right: 16px;
+        bottom: 16px;
+        gap: 10px;
+    }
+
+    .site-floating-action {
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-floating-action {
+        transition: none;
+    }
 }
 
 .footer_logo {
@@ -312,3 +398,33 @@
     }
 }
 </style>
+
+<script>
+(function () {
+    var backToTop = document.querySelector('.site-back-to-top');
+    var blogBackToTop = document.getElementById('dpostTop');
+
+    if (!backToTop) {
+        return;
+    }
+
+    function updateBackToTop() {
+        if (blogBackToTop) {
+            backToTop.classList.remove('is-visible');
+            return;
+        }
+
+        backToTop.classList.toggle('is-visible', window.scrollY > 300);
+    }
+
+    backToTop.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+        });
+    });
+
+    window.addEventListener('scroll', updateBackToTop, { passive: true });
+    updateBackToTop();
+}());
+</script>

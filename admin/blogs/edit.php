@@ -878,7 +878,7 @@ body:has(.dcp){background:var(--bg,#f6f7f9);margin:0;}
                             </button>
                         </div>
                         <?php if (!empty($form['featured_image'])): ?>
-                            <p class="dcp-help"><i class="fas fa-circle-info"></i> Nayi image upload karne par purani file delete ho jayegi.</p>
+                           <p class="dcp-help"><i class="fas fa-circle-info"></i></p>
                         <?php endif; ?>
                     </div>
                 </section>

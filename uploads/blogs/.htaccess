@@ -1,0 +1,5 @@
+# Prevent direct access to uploaded files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

@@ -477,7 +477,7 @@ body {
                         <a class="dropdown-item" href="/tally_course.php">
                             <div class="item-icon"><i class="ri-book-open-line"></i></div>
                             <div class="item-content">
-                                <span class="item-title">Tally Course</span>
+                                <span class="item-title">Tally Education</span>
                             </div>
                         </a>
                     </li>
@@ -503,12 +503,12 @@ body {
 
                 <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="/blog.php">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="/achivements.php">Achivements</a></li>
+                <li class="nav-item"><a class="nav-link" href="/achivements.php">Achievements</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact.php">Contact Us</a></li>
             </ul>
 
-            <a href="tel:9888696300" class="d-inline-block w-100-mobile">
-                <button class="btn btn-custom">
+            <a href="#mainModal" class="d-inline-block w-100-mobile" onclick="openModal(); return false;" aria-label="Open Connect With Us form">
+                <button type="button" class="btn btn-custom">
                     Get A Free Call <i class="ri-arrow-right-up-line"></i>
                 </button>
             </a>

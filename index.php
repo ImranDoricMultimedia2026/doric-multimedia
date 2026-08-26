@@ -63,7 +63,7 @@ if (php_sapi_name() === 'cli-server') {
                 <div class="col-lg-6 layout-right">
                     <div class="premium-image-frame">
                         <div class="premium-image-card">
-                            <img src="images/tlprime.jpg" alt="TallyPrime" class="hero-display-img">
+                            <img src="images/Banner001.png" alt="TallyPrime" class="hero-display-img">
 
                             <div class="floating-stat-tag">
                                 <div class="stat-icon-wrapper src-green">
@@ -113,7 +113,7 @@ if (php_sapi_name() === 'cli-server') {
                 <div class="col-lg-6 layout-right">
                     <div class="premium-image-frame">
                         <div class="premium-image-card">
-                            <img src="images/tlserver.jpg" alt="TallyPrime Server" class="hero-display-img">
+                            <img src="images/Banner003.png" alt="TallyPrime Server" class="hero-display-img">
 
                             <div class="floating-stat-tag">
                                 <div class="stat-icon-wrapper src-orange">
@@ -163,7 +163,7 @@ if (php_sapi_name() === 'cli-server') {
                 <div class="col-lg-6 layout-right">
                     <div class="premium-image-frame">
                         <div class="premium-image-card">
-                            <img src="images/tlcloud.jpg" alt="Tally on Cloud" class="hero-display-img">
+                            <img src="images/BannerImage01.png" alt="Tally on Cloud" class="hero-display-img">
 
                             <div class="floating-stat-tag">
                                 <div class="stat-icon-wrapper src-blue">
@@ -213,7 +213,7 @@ if (php_sapi_name() === 'cli-server') {
                 <div class="col-lg-6 layout-right">
                     <div class="premium-image-frame">
                         <div class="premium-image-card">
-                            <img src="images/tally1.1.png" alt="Customization & Implementation" class="hero-display-img">
+                            <img src="images/Banner04.png" alt="Customization & Implementation" class="hero-display-img">
 
                             <div class="floating-stat-tag">
                                 <div class="stat-icon-wrapper src-purple">
@@ -231,7 +231,6 @@ if (php_sapi_name() === 'cli-server') {
             </div>
         </div>
     </div>
-
 </div>
 </div>
 
@@ -252,29 +251,145 @@ if (php_sapi_name() === 'cli-server') {
 </script>
 
 
-
-
+<!-- ============================================
+   WORLD'S BEST STRATEGIC ADVANTAGE SECTION
+   PURE WHITE BACKGROUND
+   ============================================ -->
 
 <section class="strategic-advantage-section">
     <div class="container">
-        <div class="row align-items-end">
-            
-            <div class="col-lg-7 mb-4 mb-lg-0">
+        <!-- Premium Decorative Elements -->
+        <div class="strategic-orb strategic-orb-1"></div>
+        <div class="strategic-orb strategic-orb-2"></div>
+        <div class="strategic-orb strategic-orb-3"></div>
+
+        <div class="row align-items-center g-5">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-7">
                 <div class="advantage-left-content">
-                    <span class="badge-text-light">WHY CHOOSE Doric Multimedia</span>
-                    <h2 class="advantage-title">Simplifying Accounting, <br>Empowering Businesses</h2>
-                    <p class="advantage-desc">
-                        Delivering reliable Tally solutions with expert support, seamless implementation, and smart business accounting services for growing enterprises.
-                    </p>
+
+                    <!-- Premium Badge -->
+                    <div class="premium-badge-wrapper">
+                        <span class="premium-badge">
+                            <span class="badge-dot"></span>
+                            WHY CHOOSE DORIC MULTIMEDIA
+                            <span class="badge-dot"></span>
+                        </span>
+                    </div>
+
+                    <!-- Main Heading -->
+                    <h2 class="advantage-title">
+                        <span class="title-gradient">Simplifying Accounting,</span>
+                        <br>
+                        <span class="title-highlight">Empowering Businesses</span>
+                    </h2>
+
+                    <!-- Description -->
+                    <div class="advantage-desc-wrapper">
+                        <p class="advantage-desc">
+                            Delivering reliable Tally solutions with expert support, seamless implementation,
+                            and smart business accounting services designed for modern enterprises.
+                        </p>
+                        <div class="desc-underline"></div>
+                    </div>
+
+                    <!-- Premium Solutions Row -->
+                    <div class="premium-stats-row">
+
+                        <div class="stat-item">
+                            <div class="stat-number">Tally</div>
+                            <span class="stat-label">Expert Solutions</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat-item">
+                            <div class="stat-number">Cloud</div>
+                            <span class="stat-label">Ready Solutions</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat-item">
+                            <div class="stat-number">Custom</div>
+                            <span class="stat-label">Business Solutions</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <span class="trust-badge">
+                            <i class="fas fa-check-circle"></i>
+                            Expert Implementation
+                        </span>
+
+                        <span class="trust-badge">
+                            <i class="fas fa-headset"></i>
+                            Dedicated Support
+                        </span>
+
+                        <span class="trust-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            Secure Solutions
+                        </span>
+                    </div>
+
                 </div>
             </div>
-            
-            <div class="col-lg-5 text-lg-end">
+
+            <!-- RIGHT CONTENT -->
+            <div class="col-lg-5">
                 <div class="advantage-right-content">
-                    <h4 class="strategies-count-text">
-                        Over 500+ Businesses <br>Successfully Managed with Tally
-                    </h4>
-                   <a href="javascript:void(0)" onclick="openModal()"  class="btn-free-consulting">Get Free Demo</a>
+
+                    <!-- Premium Floating Card -->
+                    <div class="floating-premium-card">
+                        <div class="card-glow"></div>
+
+                        <div class="card-content">
+
+                            <div class="card-icon-wrapper">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+
+                            <h4 class="strategies-count-text">
+                                Smart Solutions
+                                <br>
+                                for Modern
+                                <span class="highlight-text">Businesses</span>
+                            </h4>
+
+                            <div class="card-divider"></div>
+
+                            <p class="card-small-text">
+                                From Tally implementation to cloud solutions,
+                                customization and business automation.
+                            </p>
+
+                            <a href="javascript:void(0)"
+                               onclick="openModal()"
+                               class="btn-premium-consulting">
+                                <span class="btn-text">Get Free Demo</span>
+                                <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- Floating Mini Badges -->
+                    <div class="mini-badges">
+                        <div class="mini-badge mini-badge-1">
+                            <i class="fas fa-cogs"></i>
+                            <span>Expert Solutions</span>
+                        </div>
+
+                        <div class="mini-badge mini-badge-2">
+                            <i class="fas fa-headset"></i>
+                            <span>Dedicated Support</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -282,55 +397,119 @@ if (php_sapi_name() === 'cli-server') {
     </div>
 </section>
 
+<!-- ============================================
+   WORLD'S BEST ABOUT SECTION
+   PURE WHITE BACKGROUND
+   ============================================ -->
+
+<!-- ============================================
+    ABOUT SECTION - AS PER IMAGE
+   ============================================ -->
+
 <section class="about-section">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center g-5">
             
-            <div class="col-lg-6 mb-5 mb-lg-0">
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6">
                 <div class="about-content">
-                    <!-- <span class="badge-title">About DMPL</span> -->
+                    <!-- Badge -->
+                  
                     
-                    <h2 class="main-title">
-                        Delivering Smart Business & IT Solutions for Modern Enterprises
+                    <!-- Main Heading -->
+                    <h2 class="about-heading">
+                        Delivering Smart Business <br>
+                        <span class="heading-highlight">&amp; IT Solutions for</span> <br>
+                        <span class="heading-gradient">Modern Enterprises</span>
                     </h2>
 
-                    <p class="description">
-                        DMPL is a trusted technology and business solutions provider specializing in Tally services, cloud solutions, software customization, and digital transformation. We bring together business expertise and innovative technology to help organizations streamline operations, improve productivity, and achieve sustainable growth.
+                    <!-- Description -->
+                    <p class="about-desc">
+                        Doric Multimedia is a trusted technology and business solutions provider specializing in 
+                        <span class="highlight-text">Tally services</span>, 
+                        <span class="highlight-text">cloud solutions</span>, 
+                        <span class="highlight-text">software customization</span>, and 
+                        <span class="highlight-text">digital transformation</span>.
                     </p>
 
-                    <p class="description">
-                        From Tally implementation and cloud hosting to custom business applications and ongoing technical support, our team delivers reliable solutions tailored to the unique requirements of businesses across industries.
+                    <p class="about-desc">
+                        From Tally implementation and cloud hosting to custom business applications 
+                        and ongoing technical support, our team delivers reliable solutions tailored 
+                        to the unique requirements of businesses across industries.
                     </p>
 
-                    <div class="features-grid">
-                        <div class="feature-item">Tally Licensing & Implementation</div>
-                        <div class="feature-item">Tally on Cloud (AWS Powered)</div>
-                        <div class="feature-item">TDL Customization & Integration</div>
-                        <div class="feature-item">Business Process Automation</div>
-                        <div class="feature-item">Technical Consulting & Support</div>
-                        <div class="feature-item">Cloud & Digital Solutions</div>
+                    <!-- Features List -->
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            Tally Licensing &amp; Implementation
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            Tally on Cloud (AWS Powered)
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            TDL Customization &amp; Integration
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            Business Process Automation
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            Technical Consulting &amp; Support
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-diamond"></span>
+                            Cloud &amp; Digital Solutions
+                        </div>
                     </div>
 
-                    <a href="index.php#ser" class="btn-learn-more">
-                        Discover Our Services
+                    <!-- CTA Button -->
+                    <a href="index.php" class="btn-discover">
+                        DISCOVER OUR SERVICES
+                        <span class="btn-arrow">→</span>
                     </a>
                 </div>
             </div>
 
+            <!-- RIGHT CONTENT - IMAGE -->
             <div class="col-lg-6">
                 <div class="about-image-wrapper">
-                    <div class="sharp-image-container">
-                        <img src="images/about_tally.png"
-                             class="img-fluid main-img"
+                    <!-- Main Image -->
+                    <div class="image-container">
+                        <img src="images/HomeLaptop.jpg" 
+                             class="img-fluid about-main-img" 
                              alt="DMPL Business Solutions">
+                        
+                        <!-- Floating Badge - Top Right -->
+                        <div class="floating-badge top-badge">
+                            <i class="fas fa-trophy"></i>
+                            Best Tally Partner
+                        </div>
                     </div>
 
-                    <div class="stats-badge-sharp">
-                        <span class="badge-subtitle">Trusted By</span>
-                        <h3 class="badge-percentage">500+</h3>
-                        <p class="badge-text">
-                            Businesses for Tally, Cloud & IT Solutions
+                    <!-- Stats Badge - Bottom -->
+                    <div class="stats-badge">
+                        <span class="stats-subtitle">
+                            <i class="fas fa-users"></i> TRUSTED BY
+                        </span>
+                        <div class="stats-number">
+                            <span class="counter-num" data-count="500">0</span>
+                            <span class="stats-plus">+</span>
+                        </div>
+                        <p class="stats-text">
+                            Businesses for Tally, <br>Cloud &amp; IT Solutions
                         </p>
+                        <div class="stats-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-text">4.9/5</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,115 +517,215 @@ if (php_sapi_name() === 'cli-server') {
         </div>
     </div>
 </section>
-
-
-
-
 
 <section class="contact_section">
     <div class="container">
         <div class="row align-items-center">
-            
+
             <!-- LEFT CONTENT -->
             <div class="col-lg-6 contact-left-content">
+
                 <span class="badge-git">Get In Touch</span>
 
                 <h1 class="contact-main-heading">
-                    Let’s Simplify Your Accounting with DMPL Tally
+                    Let’s Simplify Your Accounting with Doric Multimedia Tally
                 </h1>
 
                 <div class="divider"></div>
-                
-                <div class="contact-info-flex">
-                    <div class="info-item">
-                        <p class="info-label">EMAIL ADDRESS</p>
-                        <p class="info-value">support@dmpltally.com</p>
+
+                <!-- CONTACT INFORMATION -->
+                <div class="contact-info-flex"
+                     style="display: block; width: 100%;">
+
+                    <!-- EMAIL -->
+                    <div class="info-item"
+                         style="display: block; margin-bottom: 18px;">
+
+                        <p class="info-label"
+                           style="margin: 0 0 5px 0;">
+                            EMAIL ADDRESS
+                        </p>
+
+                        <p class="info-value"
+                           style="margin: 0;">
+                            mail@doricmultimedia.com
+                        </p>
+
                     </div>
 
-                    <div class="info-item">
-                        <p class="info-label">WORKING HOURS</p>
-                        <p class="info-value">Mon - Saturday, 09 AM - 07 PM</p>
+
+                    <!-- CALL -->
+                    <div class="info-item"
+                         style="display: block; margin-bottom: 18px;">
+
+                        <p class="info-label"
+                           style="margin: 0 0 5px 0;">
+                            CALL
+                        </p>
+
+                        <p class="info-value"
+                           style="margin: 0;">
+
+                            <a href="tel:9888696300"
+                               style="color: #ffffff;
+                                      text-decoration: none;">
+
+                                +91 98886 96300
+
+                            </a>
+
+                        </p>
+
                     </div>
+
+
+                    <!-- WORKING HOURS -->
+                    <div class="info-item"
+                         style="display: block;">
+
+                        <p class="info-label"
+                           style="margin: 0 0 5px 0;">
+                            WORKING HOURS
+                        </p>
+
+                        <p class="info-value"
+                           style="margin: 0;">
+                            Mon - Saturday, 10:00 AM - 06:30 PM
+                        </p>
+
+                    </div>
+
                 </div>
+
             </div>
-            
+
+
             <!-- FORM SECTION -->
             <div class="col-lg-6">
-                <div class="form-green-parent">
-                    
-                    <div class="form-card-header">
-                        <!-- <h3>Free DMPL Tally Consultation</h3> -->
 
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="22" y1="2" x2="11" y2="13"></line>
-                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                        </svg> -->
+                <div class="form-green-parent">
+
+                    <div class="form-card-header">
+                        <!-- Header intentionally empty -->
                     </div>
-                    
+
                     <div class="form-white-child">
+
                         <p class="form-subtitle">
-                            Book your free consultation with DMPL Tally experts and get
+                            Book your free consultation with Doric Multimedia Tally experts and get
                             solutions for accounting, GST, billing, and business automation.
                         </p>
-                     <form action="">
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <label class="form-custom-label">Your Name</label>
-            <input type="text" class="form-control custom-input"
-                placeholder="Enter your full name" required>
-        </div>
 
-        <div class="col-md-6 mb-4">
-            <label class="form-custom-label">Phone Number</label>
-            <input type="tel" class="form-control custom-input"
-                placeholder="Enter your phone number" required>
-        </div>
 
-        <div class="col-md-6 mb-4">
-            <label class="form-custom-label">Email Address</label>
-            <input type="email" class="form-control custom-input"
-                placeholder="Enter your email address" required>
-        </div>
+                        <form action="">
 
-        <div class="col-md-6 mb-4">
-            <label class="form-custom-label">Subject</label>
-            <input type="text" class="form-control custom-input"
-                placeholder="Enter subject"
-             >
-        </div>
+                            <div class="row">
 
-        <div class="col-12 mb-4">
-            <label class="form-custom-label">Message</label>
-            <textarea
-                class="form-control custom-input"
-                rows="3"
-                placeholder="Enter your query..."
-                required></textarea>
-        </div>
-    </div>
+                                <!-- NAME -->
+                                <div class="col-md-6 mb-4">
 
-    <div class="form-footer-action">
-        <button type="submit" class="btn btn-send-msg">
-            Send Message
-        </button>
+                                    <label class="form-custom-label">
+                                        Your Name
+                                    </label>
 
-        <a href="tel:9888696300" class="form-phone-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-            </svg>
+                                    <input
+                                        type="text"
+                                        class="form-control custom-input"
+                                        placeholder="Enter your full name"
+                                        required>
 
-            Call: +91 98886 96300
-        </a>
-    </div>
-</form>
+                                </div>
+
+
+                                <!-- PHONE -->
+                                <div class="col-md-6 mb-4">
+
+                                    <label class="form-custom-label">
+                                        Phone Number
+                                    </label>
+
+                                    <input
+                                        type="tel"
+                                        class="form-control custom-input"
+                                        placeholder="Enter your phone number"
+                                        required>
+
+                                </div>
+
+
+                                <!-- EMAIL -->
+                                <div class="col-md-6 mb-4">
+
+                                    <label class="form-custom-label">
+                                        Email Address
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        class="form-control custom-input"
+                                        placeholder="Enter your email address"
+                                        required>
+
+                                </div>
+
+
+                                <!-- SUBJECT -->
+                                <div class="col-md-6 mb-4">
+
+                                    <label class="form-custom-label">
+                                        Subject
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control custom-input"
+                                        placeholder="Enter subject">
+
+                                </div>
+
+
+                                <!-- MESSAGE -->
+                                <div class="col-12 mb-4">
+
+                                    <label class="form-custom-label">
+                                        Message
+                                    </label>
+
+                                    <textarea
+                                        class="form-control custom-input"
+                                        rows="3"
+                                        placeholder="Enter your query..."
+                                        required></textarea>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- FORM FOOTER -->
+                            <div class="form-footer-action">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-send-msg">
+
+                                    Send Message
+
+                                </button>
+
+                            </div>
+
+                        </form>
+
                     </div>
+
                 </div>
+
             </div>
 
         </div>
     </div>
 </section>
-
 
 <!-- Swiper CSS -->
 
@@ -455,9 +734,6 @@ if (php_sapi_name() === 'cli-server') {
 <?php include("clients.php")?>
 
 <?php include("test.php")?>
-
-
-
 
 
 <section class="counter-section" id="counter_section">
@@ -500,19 +776,7 @@ if (php_sapi_name() === 'cli-server') {
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-
 <?php include("footer.php")?>
-
-
-
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -603,6 +867,55 @@ if (php_sapi_name() === 'cli-server') {
     document.onkeydown = (e) => { 
         if(e.key === 'Escape') closeModal(); 
     };
+</script>
+
+
+<script>
+    // ============================================
+// COUNTER ANIMATION
+// ============================================
+
+document.addEventListener('DOMContentLoaded', function() {
+    const counterElement = document.querySelector('.counter-num');
+    
+    if (counterElement) {
+        const animateCounter = () => {
+            const target = parseInt(counterElement.getAttribute('data-count'));
+            const duration = 2000;
+            const startTime = Date.now();
+            
+            const updateCounter = () => {
+                const currentTime = Date.now();
+                const progress = Math.min((currentTime - startTime) / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const current = Math.floor(eased * target);
+                
+                counterElement.textContent = current;
+                
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counterElement.textContent = target;
+                }
+            };
+            
+            updateCounter();
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (!counterElement.classList.contains('animated')) {
+                        counterElement.classList.add('animated');
+                        animateCounter();
+                    }
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        observer.observe(counterElement);
+    }
+});
 </script>
 
 
