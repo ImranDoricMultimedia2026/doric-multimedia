@@ -235,20 +235,21 @@ if (php_sapi_name() === 'cli-server') {
 </div>
 
 <script>
-    $(document).ready(function(){
-        $('.main-hero-slider').slick({
-            dots: true,
-            infinite: true,
-            speed: 800,
-            fade: true, /* Premium cross-fade effects */
-            cssEase: 'linear',
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows: false,
-            pauseOnHover: false
-        });
+  $(document).ready(function () {
+    $('.main-hero-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 800,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false,
+      pauseOnHover: false
     });
+  });
 </script>
+
 
 
 <!-- ============================================
@@ -736,45 +737,7 @@ if (php_sapi_name() === 'cli-server') {
 <?php include("test.php")?>
 
 
-<section class="counter-section" id="counter_section">
-    <div class="container">
-        <div class="counter-grid-wrapper">
-            
-            <!-- Counter Item -->
-            <div class="counter-item">
-                <div class="counter-number-block">
-                    <span class="counter-digit">7</span>
-                </div>
-                <p class="counter-title">Tally Xcelerator</p>
-            </div>
 
-            <!-- Counter Item -->
-            <div class="counter-item">
-                <div class="counter-number-block">
-                    <span class="counter-digit">55</span><span class="counter-plus">+</span>
-                </div>
-                <p class="counter-title">Custom Modules</p>
-            </div>
-
-            <!-- Counter Item -->
-            <div class="counter-item">
-                <div class="counter-number-block">
-                    <span class="counter-digit">3675</span><span class="counter-plus">+</span>
-                </div>
-                <p class="counter-title">Partners</p>
-            </div>
-
-            <!-- Counter Item -->
-            <div class="counter-item">
-                <div class="counter-number-block">
-                    <span class="counter-digit">3675</span><span class="counter-plus">+</span>
-                </div>
-                <p class="counter-title">Corporate Clients</p>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <?php include("footer.php")?>
 

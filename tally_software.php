@@ -1131,6 +1131,1039 @@
     }
 
 }
+/* =========================================================
+   DORIC MULTIMEDIA
+   OTHER TALLY PRODUCTS
+   COMPLETELY UNIQUE CSS
+   PREFIX: dmp-
+========================================================= */
+
+.dmp-other-products {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    padding: 100px 20px 95px;
+
+    background:
+        radial-gradient(
+            650px circle at 5% 15%,
+            rgba(157, 54, 38, 0.07),
+            transparent 65%
+        ),
+        radial-gradient(
+            600px circle at 95% 85%,
+            rgba(201, 154, 62, 0.06),
+            transparent 65%
+        ),
+        #f8fafc;
+
+    isolation: isolate;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.dmp-products-container {
+    position: relative;
+
+    width: min(1180px, 100%);
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   BACKGROUND GLOWS
+========================================================= */
+
+.dmp-bg-glow {
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+
+    filter: blur(80px);
+
+    opacity: 0.5;
+
+    z-index: -1;
+}
+
+.dmp-bg-glow-left {
+    left: -300px;
+    top: 100px;
+
+    background: rgba(157, 54, 38, 0.055);
+}
+
+.dmp-bg-glow-right {
+    right: -300px;
+    bottom: 50px;
+
+    background: rgba(201, 154, 62, 0.055);
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.dmp-products-header {
+    max-width: 760px;
+
+    margin: 0 auto 58px;
+
+    text-align: center;
+}
+
+
+/* Kicker */
+
+.dmp-products-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 17px;
+
+    color: #9d3626;
+
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.dmp-kicker-dot {
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: #9d3626;
+
+    box-shadow:
+        0 0 0 4px rgba(157, 54, 38, 0.08);
+}
+
+
+/* Title */
+
+.dmp-products-title {
+    margin: 0;
+
+    color: #0b172a;
+
+    font-size: clamp(38px, 5vw, 58px);
+
+    font-weight: 800;
+
+    line-height: 1.08;
+
+    letter-spacing: -2px;
+}
+
+.dmp-products-title span {
+    display: inline-block;
+
+    background:
+        linear-gradient(
+            135deg,
+            #9d3626 0%,
+            #a94431 45%,
+            #c99a3e 100%
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+/* Subtitle */
+
+.dmp-products-subtitle {
+    max-width: 650px;
+
+    margin: 19px auto 0;
+
+    color: #64748b;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   PRODUCTS GRID
+========================================================= */
+
+.dmp-products-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 25px;
+}
+
+
+/* =========================================================
+   PRODUCT CARD
+========================================================= */
+
+.dmp-product-item {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+
+    padding: 34px;
+
+    border: 1px solid rgba(148, 163, 184, 0.20);
+
+    border-radius: 26px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #fbfcfd 100%
+        );
+
+    box-shadow:
+        0 24px 70px rgba(15, 23, 42, 0.08);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease,
+        border-color 0.4s ease;
+}
+
+.dmp-product-item:hover {
+    transform: translateY(-7px);
+
+    border-color:
+        rgba(157, 54, 38, 0.22);
+
+    box-shadow:
+        0 30px 80px rgba(15, 23, 42, 0.12),
+        0 10px 30px rgba(157, 54, 38, 0.05);
+}
+
+
+/* =========================================================
+   PRODUCT NUMBER
+========================================================= */
+
+.dmp-product-number {
+    position: absolute;
+
+    top: 18px;
+    right: 19px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid rgba(157, 54, 38, 0.14);
+
+    border-radius: 50%;
+
+    background: rgba(157, 54, 38, 0.035);
+
+    color: #9d3626;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   LOGO AREA
+========================================================= */
+
+.dmp-product-logo-area {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 225px;
+
+    padding: 28px 15px;
+
+    margin-bottom: 29px;
+
+    border-radius: 20px;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(157, 54, 38, 0.06),
+            transparent 65%
+        ),
+        #f8fafc;
+
+    border: 1px solid rgba(148, 163, 184, 0.13);
+
+    overflow: hidden;
+}
+
+
+/* Developer visual */
+
+.dmp-developer-item .dmp-product-logo-area {
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(201, 154, 62, 0.075),
+            transparent 65%
+        ),
+        #f8fafc;
+}
+
+
+/* =========================================================
+   LOGO GLOW
+========================================================= */
+
+.dmp-logo-glow {
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    background: rgba(157, 54, 38, 0.06);
+
+    filter: blur(55px);
+
+    pointer-events: none;
+}
+
+.dmp-developer-item .dmp-logo-glow {
+    background: rgba(201, 154, 62, 0.07);
+}
+
+
+/* =========================================================
+   LOGO BOX
+========================================================= */
+
+.dmp-logo-box {
+    position: relative;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    max-width: 390px;
+
+    min-height: 105px;
+
+    padding: 20px 28px;
+
+    border: 1px solid rgba(148, 163, 184, 0.18);
+
+    border-radius: 16px;
+
+    background:
+        rgba(255, 255, 255, 0.92);
+
+    box-shadow:
+        0 15px 45px rgba(15, 23, 42, 0.07),
+        inset 0 1px 0 #ffffff;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+.dmp-product-item:hover .dmp-logo-box {
+    transform: scale(1.02);
+
+    box-shadow:
+        0 20px 55px rgba(15, 23, 42, 0.10),
+        0 0 25px rgba(157, 54, 38, 0.035);
+}
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.dmp-product-logo {
+    display: block;
+
+    width: 100%;
+
+    max-width: 300px;
+
+    height: auto;
+
+    max-height: 65px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   LOGO CORNERS
+========================================================= */
+
+.dmp-logo-corner {
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+
+    border-color: #9d3626;
+
+    border-style: solid;
+
+    z-index: 3;
+}
+
+.dmp-corner-top-left {
+    left: -1px;
+    top: -1px;
+
+    border-width: 2px 0 0 2px;
+
+    border-radius: 5px 0 0 0;
+}
+
+.dmp-corner-top-right {
+    right: -1px;
+    top: -1px;
+
+    border-width: 2px 2px 0 0;
+
+    border-radius: 0 5px 0 0;
+}
+
+.dmp-corner-bottom-left {
+    left: -1px;
+    bottom: -1px;
+
+    border-width: 0 0 2px 2px;
+
+    border-radius: 0 0 0 5px;
+}
+
+.dmp-corner-bottom-right {
+    right: -1px;
+    bottom: -1px;
+
+    border-width: 0 2px 2px 0;
+
+    border-radius: 0 0 5px 0;
+}
+
+
+/* =========================================================
+   PRODUCT TYPE
+========================================================= */
+
+.dmp-product-type {
+    position: relative;
+    z-index: 2;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    margin-top: 17px;
+
+    padding: 7px 12px;
+
+    border: 1px solid rgba(157, 54, 38, 0.10);
+
+    border-radius: 999px;
+
+    background: #ffffff;
+
+    color: #64748b;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+.dmp-product-type i {
+    color: #9d3626;
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   PRODUCT INFO
+========================================================= */
+
+.dmp-product-info {
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+
+
+/* =========================================================
+   TOP LINE
+========================================================= */
+
+.dmp-product-topline {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.dmp-product-label {
+    color: #94a3b8;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.4px;
+}
+
+.dmp-product-version {
+    padding: 5px 9px;
+
+    border: 1px solid rgba(157, 54, 38, 0.13);
+
+    border-radius: 6px;
+
+    background: #fff0ed;
+
+    color: #9d3626;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================================
+   PRODUCT NAME
+========================================================= */
+
+.dmp-product-name {
+    margin: 0;
+
+    color: #0b172a;
+
+    font-size: 30px;
+
+    line-height: 1.15;
+
+    font-weight: 500;
+
+    letter-spacing: -1px;
+}
+
+.dmp-product-name strong {
+    font-weight: 800;
+
+    background:
+        linear-gradient(
+            135deg,
+            #9d3626,
+            #c99a3e
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+/* =========================================================
+   PRODUCT TEXT
+========================================================= */
+
+.dmp-product-text {
+    margin: 13px 0 21px;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   PRODUCT POINTS
+========================================================= */
+
+.dmp-product-points {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+
+    margin-bottom: 25px;
+}
+
+.dmp-product-points span {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #475569;
+
+    font-size: 11px;
+
+    line-height: 1.4;
+}
+
+.dmp-product-points i {
+    flex: 0 0 auto;
+
+    color: #9d3626;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   ACTION AREA
+========================================================= */
+
+.dmp-product-action {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-top: auto;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+
+/* =========================================================
+   RELEASE INFO
+========================================================= */
+
+.dmp-product-release {
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+}
+
+.dmp-release-icon {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 9px;
+
+    background: #fff0ed;
+
+    color: #9d3626;
+
+    font-size: 11px;
+}
+
+.dmp-release-text {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2px;
+}
+
+.dmp-release-text small {
+    color: #94a3b8;
+
+    font-size: 7px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+.dmp-release-text b {
+    color: #0b172a;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   DOWNLOAD BUTTON
+========================================================= */
+
+.dmp-product-download {
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    min-width: 120px;
+
+    padding: 12px 15px;
+
+    border: 1px solid #9d3626;
+
+    border-radius: 10px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #9d3626,
+            #7d281c
+        );
+
+    color: #ffffff;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.3px;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 8px 20px rgba(157, 54, 38, 0.16);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+.dmp-product-download::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -120%;
+
+    width: 80%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255,255,255,0.18),
+            transparent
+        );
+
+    transform: skewX(-20deg);
+
+    transition: left 0.55s ease;
+}
+
+.dmp-product-download:hover::before {
+    left: 140%;
+}
+
+.dmp-product-download:hover {
+    transform: translateY(-2px);
+
+    background:
+        linear-gradient(
+            135deg,
+            #a9402e,
+            #7d281c
+        );
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 12px 28px rgba(157, 54, 38, 0.24);
+}
+
+.dmp-product-download i {
+    font-size: 10px;
+
+    transition:
+        transform 0.3s ease;
+}
+
+.dmp-product-download:hover i {
+    transform: translateY(2px);
+}
+
+
+/* =========================================================
+   BOTTOM NOTE
+========================================================= */
+
+.dmp-products-note {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    max-width: 650px;
+
+    margin: 32px auto 0;
+
+    padding: 15px 19px;
+
+    border: 1px solid rgba(148, 163, 184, 0.17);
+
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    box-shadow:
+        0 12px 35px rgba(15, 23, 42, 0.04);
+}
+
+.dmp-note-icon {
+    flex: 0 0 auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 34px;
+    height: 34px;
+
+    border-radius: 9px;
+
+    background: #fff0ed;
+
+    color: #9d3626;
+
+    font-size: 11px;
+}
+
+.dmp-note-content {
+    text-align: left;
+}
+
+.dmp-note-content strong {
+    display: block;
+
+    margin-bottom: 2px;
+
+    color: #0b172a;
+
+    font-size: 10px;
+
+    font-weight: 800;
+}
+
+.dmp-note-content p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 9px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .dmp-other-products {
+        padding: 80px 20px;
+    }
+
+    .dmp-products-grid {
+        grid-template-columns: 1fr;
+
+        max-width: 700px;
+
+        margin: 0 auto;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .dmp-other-products {
+        padding: 70px 15px;
+    }
+
+    .dmp-products-header {
+        margin-bottom: 40px;
+    }
+
+    .dmp-products-title {
+        font-size: 36px;
+
+        letter-spacing: -1.3px;
+    }
+
+    .dmp-products-subtitle {
+        font-size: 13px;
+    }
+
+    .dmp-product-item {
+        padding: 20px;
+
+        border-radius: 21px;
+    }
+
+    .dmp-product-logo-area {
+        min-height: 195px;
+
+        margin-bottom: 24px;
+
+        padding: 22px 12px;
+    }
+
+    .dmp-logo-box {
+        min-height: 90px;
+
+        padding: 17px 20px;
+    }
+
+    .dmp-product-logo {
+        max-width: 250px;
+
+        max-height: 55px;
+    }
+
+    .dmp-product-name {
+        font-size: 27px;
+    }
+
+    .dmp-product-text {
+        font-size: 12px;
+    }
+
+    .dmp-product-action {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .dmp-product-release {
+        width: 100%;
+    }
+
+    .dmp-product-download {
+        width: 100%;
+    }
+
+    .dmp-products-note {
+        align-items: flex-start;
+
+        padding: 14px 15px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .dmp-products-title {
+        font-size: 32px;
+    }
+
+    .dmp-product-item {
+        padding: 17px;
+    }
+
+    .dmp-product-logo-area {
+        min-height: 175px;
+    }
+
+    .dmp-product-name {
+        font-size: 25px;
+    }
+
+}
   </style>
 </head>
 
@@ -1244,12 +2277,12 @@
             </div>
 
             <a
-              href="https://tallysolutions.com/download/"
+              href="./TallyDownload/TallyPrime.exe"
               target="_blank"
               rel="noopener noreferrer"
               class="tally-download-btn"
             >
-              Download TallyPrime
+              Download TallyPrime Rel 7.1
               <i class="fa-solid fa-arrow-right"></i>
             </a>
 
@@ -1266,10 +2299,12 @@
         <div class="tally-download-card edit-log-card">
 
           <div class="tally-card-top">
+<div class="tally-logo-box">
+  <i class="fa-solid fa-clock-rotate-left"></i>
+</div>
 
-            <div class="tally-logo-box edit-log-icon">
-              <i class="fa-solid fa-shield-halved"></i>
-            </div>
+
+
 
             <div>
               <span class="tally-card-label">FOR BUSINESS CONTROL</span>
@@ -1325,21 +2360,175 @@
               <span>Edit Log is disabled by default</span>
             </div>
 
-            <a
-              href="https://help.tallysolutions.com/tally-prime/edit-log/get-started-with-edit-log/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="tally-download-btn tally-outline-btn"
-            >
-              Know More
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
+           
+      <a
+        href="./TallyDownload/TallyPrimeEditLog.exe"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="tally-download-btn"
+      >
+       
+Download TallyPrime Edit Log Rel 7.1
+
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
 
           </div>
 
         </div>
 
       </div>
+      <!-- TallyPrime Server -->
+<div class="col-lg-6">
+
+  <div class="tally-download-card">
+
+    <div class="tally-card-top">
+
+      <div class="tally-logo-box">
+        <i class="fa-solid fa-server"></i>
+      </div>
+
+      <div>
+        <span class="tally-card-label">LATEST RELEASE</span>
+
+        <h2>
+          TallyPrime Server
+        </h2>
+
+        <span class="tally-version">
+          Rel 7.1
+        </span>
+      </div>
+
+    </div>
+
+
+    <p class="tally-card-description">
+      Enterprise Class product to improve your business efficiencies.
+    </p>
+
+
+    <div class="tally-features">
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Enterprise-class performance</span>
+      </div>
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Centralised business operations</span>
+      </div>
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Built for growing businesses</span>
+      </div>
+
+    </div>
+
+
+    <div class="tally-card-footer">
+
+      <div class="tally-release">
+        <i class="fa-solid fa-download"></i>
+        <span>PRODUCT VERSION</span>
+        <strong>Release 7.1</strong>
+      </div>
+
+      <a
+        href="./TallyDownload/TallyPrimeServer.exe"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="tally-download-btn"
+      >
+        Download TallyPrime Server Rel 7.1
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- TallyPrime Developer -->
+<div class="col-lg-6">
+
+  <div class="tally-download-card">
+
+    <div class="tally-card-top">
+
+      <div class="tally-logo-box">
+        <i class="fa-solid fa-code"></i>
+      </div>
+
+      <div>
+        <span class="tally-card-label">LATEST RELEASE</span>
+
+        <h2>
+          TallyPrime Developer
+        </h2>
+
+        <span class="tally-version">
+          Rel 7.1
+        </span>
+      </div>
+
+    </div>
+
+
+    <p class="tally-card-description">
+      A comprehensive development suite to develop and deploy solutions
+      for TallyPrime.
+    </p>
+
+
+    <div class="tally-features">
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Develop TallyPrime solutions</span>
+      </div>
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Development &amp; deployment tools</span>
+      </div>
+
+      <div class="tally-feature">
+        <i class="fa-solid fa-check"></i>
+        <span>Professional developer workflow</span>
+      </div>
+
+    </div>
+
+
+    <div class="tally-card-footer">
+
+      <div class="tally-release">
+        <i class="fa-solid fa-download"></i>
+        <span>PRODUCT VERSION</span>
+        <strong>Release 7.1</strong>
+      </div>
+
+      <a
+        href="./TallyDownload/TallyPrimeDeveloper.exe"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="tally-download-btn"
+      >
+        Download
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
 
     </div>
 
@@ -1379,7 +2568,14 @@
 
   </div>
 
+
+
 </section>
+<!-- =========================================================
+     DOWNLOAD OTHER TALLY PRODUCTS
+========================================================= -->
+
+
   <section class="premium-team" aria-labelledby="teamSectionTitle">
     <span class="team-decoration team-decoration-one" aria-hidden="true"></span>
     <span class="team-decoration team-decoration-two" aria-hidden="true"></span>
@@ -1678,7 +2874,10 @@
       </div>
     </div>
   </section>
+
 </main>
+
+
 
 <!-- Team Profile Modal -->
 <div
